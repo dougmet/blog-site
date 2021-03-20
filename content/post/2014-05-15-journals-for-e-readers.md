@@ -4,6 +4,7 @@ slug = "2014-05-15-journals-for-e-readers"
 published = 2014-05-15T16:43:00+01:00
 author = "Douglas Ashton"
 tags = [ "journals", "communication",]
+aliases = ["/2014/05/journals-for-e-readers.html"]
 +++
 One thing that makes me cross is that despite the terrifying amount of
 money our library pays to buy back our research in the form of journals,
@@ -38,16 +39,18 @@ example.
   
 To get this working I simply replaced this line  
 
+```
     \documentclass[aps, prl, twocolumn,superscriptaddress,amsmath,amssymb,floatfix]{revtex4-1}
-
+```
   
   
 with these lines  
 
+```
     \documentclass[12pt,a5paper,superscriptaddress,amsmath,amssymb,floatfix]{revtex4-1}
 
     \usepackage[papersize={4.5in,6in},margin=0.5cm]{geometry}
-
+```
   
 Without the second one it doesn't seem to work very well. If you've got
 a better (and just as easy method) then leave a comment. I could have
@@ -69,8 +72,9 @@ here](http://people.bath.ac.uk/da246/publications/papers/ereader.tex).
 Might go back to the APS paper and reduce the paper size even more. This
 seems to work quite nicely:  
   
-
+```
     \usepackage[papersize={9cm,12cm},margin=0.5cm]{geometry}
+```
 
 UPDATE2:  
 Got the RSC send-to-kindle button working and this just sends the

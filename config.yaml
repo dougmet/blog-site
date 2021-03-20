@@ -55,14 +55,11 @@ taxonomies:
 menu:
   link:
     - name: GitHub
-      url: https://github.com/dsrkafuu
+      url: https://github.com/dougmet
       weight: 1
     - name: Twitter
-      url: https://twitter.com/dsrkafuu
+      url: https://twitter.com/dougashton
       weight: 2
-    - name: bilibili
-      url: https://space.bilibili.com/19767474
-      weight: 3
   nav:
     - name: Home
       url: /
