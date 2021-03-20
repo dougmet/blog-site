@@ -1,0 +1,81 @@
+baseURL: https://www.kineticallyconstrained.com
+title: Kinetically Constrained
+theme: hugo-theme-fuji
+hasCJKLanguage: yes
+enableEmoji: yes
+enableRobotsTXT: yes
+disableKinds: taxonomy
+ignoreErrors: error-disable-taxonomy
+languageCode: en
+defaultContentLanguage: en
+summaryLength: 100
+paginate: 10
+outputFormats:
+  SearchIndex:
+    isPlainText: yes
+    mediaType: application/json
+    notAlternative: yes
+    path: /search/
+outputs:
+  home:
+    - HTML
+    - RSS
+    - SearchIndex
+permalinks:
+  post: /:year/:month/:title/
+params:
+  author: Doug Ashton
+  copyrightStartYear: '2008'
+  description: A mix of blog posts from Doug Ashton from statistical physics to data science.
+  lazyPlaceholder: /assets/lazyload/dsrca_loading_480x270.svg
+  lazyPlaceholderCol: /assets/lazyload/dsrca_loading_480x540.svg
+  lazyPlaceholderRow: /assets/lazyload/dsrca_loading_960x270.svg
+  license: CC BY-SA 4.0
+  licenseLink: http://creativecommons.org/licenses/by-sa/4.0/
+  mainSections: post
+  og: /img/og.png
+  showLicense: yes
+  showLicenseInFooter: no
+  showReadTime: yes
+  showToc: yes
+  showWordCounter: yes
+  sourceURL: https://github.com/dougmet/kincon
+  subTitle: A place to keep the longer thoughts of Doug Ashton.
+markup:
+  goldmark:
+    renderer:
+      unsafe: yes
+  highlight:
+    codeFences: no
+  tableOfContents:
+    endLevel: 3
+    startLevel: 2
+taxonomies:
+  tag: tags
+menu:
+  link:
+    - name: GitHub
+      url: https://github.com/dsrkafuu
+      weight: 1
+    - name: Twitter
+      url: https://twitter.com/dsrkafuu
+      weight: 2
+    - name: bilibili
+      url: https://space.bilibili.com/19767474
+      weight: 3
+  nav:
+    - name: Home
+      url: /
+      weight: 1
+    - name: Archives
+      url: /archives/
+      weight: 2
+    - name: About
+      url: /about/
+      weight: 3
+    - name: Search
+      url: /search/
+      weight: 4
+    - name: RSS
+      url: /index.xml
+      weight: 5
