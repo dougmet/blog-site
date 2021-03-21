@@ -5,6 +5,7 @@ published = 2012-04-25T09:50:00.003000+01:00
 author = "Douglas Ashton"
 tags = [ "ising model", "stat-mech", "video",]
 aliases = ["/2012/04/renormalisation-group.html"]
+math = true
 +++
 A new video which more or less completes the critical phenomena
 series. [Jump straight to](#zoom) it if you want to skip the
@@ -19,7 +20,7 @@ hell breaks loose. Well, lots of things diverge. At the critical point
 all length scales are equivalent and, perhaps most remarkably,
 microscopic details become almost irrelevant. Different materials fit
 into a small number of [universality
-classes](/2011/07/universality-at-critical-point.html) that
+classes](/2011/07/universality-at-critical-point.html) that
 share broad properties such as symmetry or dimensionality.  
   
 For a long time this universal nature was known about but it couldn't be
@@ -32,8 +33,8 @@ The renormalisation group is usually at the back end of an advanced
 statistical mechanics course, and that is not the level I'm going for
 with this blog. However, when making the videos for the demonstration of
 [scale
-invariance](/2009/05/critical-point.html) and
-[universality](/2011/07/universality-at-critical-point.html) it
+invariance](/2009/05/critical-point.html) and
+[universality](/2011/07/universality-at-critical-point.html) it
 became apparent that, even just making the pictures for these videos, I
 had to use RG. Even if I didn't realise it.  
   
@@ -46,12 +47,12 @@ down too much but I also want to be as quick as possible.
 
 Let's look at how we do this with the Ising model. A simple model for a
 magnet where spins, sigma, (magnetic dipoles) can point up or down,
-$latex \\sigma=\\pm 1$, and like to align with their neighbours through
-a coupling constant, $latex J$. The energy is a sum over nearest
+\\(\\sigma=\\pm 1\\), and like to align with their neighbours through
+a coupling constant, \\(J\\). The energy is a sum over nearest
 neighbour pairs  
   
 
-$latex \\displaystyle E=\\sum\_{ij} -J \\sigma\_i \\sigma\_j$
+$$ \\displaystyle E=\\sum\_{ij} -J \\sigma\_i \\sigma\_j $$
 
   
 
@@ -84,19 +85,18 @@ these super spins were a standalone Ising model, what temperature would
 they have? If our initial system is right on the critical point then the
 renormalised (blocked) system should have the same temperature because
 it should look exactly the same – scale invariance. If you're even
-slightly off then the apparent temperature, let's call it $latex
-T\_{RG}$, will flow away from the critical point towards a fixed
+slightly off then the apparent temperature, let's call it \\(T\_{RG}\\),
+will flow away from the critical point towards a fixed
 point.  
   
-These fixed points are the ferromagnet (all spins the same, $latex
-T\_{RG}=0$) or the paramagnet (completely random, $latex T\_{RG}
-\\rightarrow \\infty$) as shown below.  
+These fixed points are the ferromagnet (all spins the same, \\(
+T\_{RG}=0\\)) or the paramagnet (completely random, \\(T\_{RG}
+\\rightarrow \\infty\\)) as shown below.  
   
 
 [![](/images/thumbnails/2012-04-25-the-renormalisation-group-rgising4.png)](/images/2012-04-25-the-renormalisation-group-rgising4.png)
 
   
-
 Normally RG is done in terms of coupling constants rather than
 temperature. However, I think in our case temperature is more
 intuitive.  
@@ -104,29 +104,28 @@ intuitive.
 #### Zooming out
 
 By now the link between RG and the pictures I make may already be clear.
-The configurations I will show below are made of something like $latex
-10^{10}$ spins. Clearly I can't make a 10 Giga pixel jpeg so I have to
+The configurations I will show below are made of something like \\(
+10^{10}\\) spins. Clearly I can't make a 10 Giga pixel jpeg so I have to
 compress the data. In fact the way I do it is an almost identical
-blocking process. Spins are bundled into $latex b \\times b$ blocks and
+blocking process. Spins are bundled into \\(b \\times b\\) blocks and
 I use a contrasting function (a fairly sharp tanh) that is not far away
 at all from majority rule as described above.  
   
 If we start by zooming in to a 768x768 subsection then each pixel is
 precisely one spin. As we zoom out we eventually need to start blocking
 spins together. In the video below there are three systems: one
-ever-so-slightly below $latex T\_c$, one ever-so-slightly above $latex
-T\_c$ and one right on the money. At maximum zoom they all look pretty
+ever-so-slightly below \\( T\_c\\), one ever-so-slightly above \\(
+T\_c\\) and one right on the money. At maximum zoom they all look pretty
 much the same. If you had to guess their temperatures you'd say they're
 all critical.  
   
-As we start to zoom out we can see structure on  length scales, and the
+As we start to zoom out we can see structure on length scales, and the
 apparent temperatures start to change, in fact they flow towards the
 fixed point phases. Video below, recommend you switch on HD and watch it
 full
-screen<a href="http://draft.blogger.com/blogger.g?blogID=5457514384557268934" id="zoom">.</a>  
-  
+screen
 
-  
+<iframe id="zoom" width="560" height="315" src="https://www.youtube.com/embed/MxRddFrEnPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
 So there it is. RG in action. If you're not precisely on the critical
 point then you will eventually find a length scale where you clearly
