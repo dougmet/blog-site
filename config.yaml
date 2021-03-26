@@ -39,7 +39,7 @@ params:
   showReadTime: yes
   showToc: yes
   showWordCounter: yes
-  sourceURL: https://github.com/dougmet/kincon
+  sourceURL: https://github.com/dougmet/blog-site
   subTitle: A place to keep the longer thoughts of Doug Ashton.
 markup:
   goldmark:
