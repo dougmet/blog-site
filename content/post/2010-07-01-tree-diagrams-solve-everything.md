@@ -4,7 +4,6 @@ slug = "2010-07-01-tree-diagrams-solve-everything"
 published = 2010-07-01T13:21:00+01:00
 author = "Douglas Ashton"
 tags = [ "probability",]
-aliases = ["/2010/07/tree-diagrams-solve-everything.html"]
 +++
 Just a quick one. I saw this post, [When intuition and math probably
 look

@@ -4,7 +4,6 @@ slug = "2009-12-17-las-big-lake-of-colloids"
 published = 2009-12-17T11:53:00.002000Z
 author = "Douglas Ashton"
 tags = [ "links",]
-aliases = ["/2009/12/las-big-lake-of-colloids.html"]
 +++
 The New York Times is running a piece about tap water and the regulation
 thereof called "[That Tap Water Is Legal but May Be

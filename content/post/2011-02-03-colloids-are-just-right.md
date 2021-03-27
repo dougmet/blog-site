@@ -4,7 +4,6 @@ slug = "2011-02-03-colloids-are-just-right"
 published = 2011-02-03T19:18:00Z
 author = "Douglas Ashton"
 tags = [ "colloids", "experiments", "stat-mech",]
-aliases = ["/2011/02/colloids-are-just-right.html"]
 +++
 All being good it looks like I've secured employment for a tiny while
 longer. Hooray!  

@@ -4,7 +4,6 @@ slug = "2008-07-30-glass-in-the-new-york-times"
 published = 2008-07-30T00:24:00.001000+01:00
 author = "Douglas Ashton"
 tags = [ "stat-mech",]
-aliases = ["/2008/07/glass-in-new-york-times.html"]
 +++
 When people think of physics they tend to think of particle
 accelerators, string theory, E=mc² and so on, so when I tell them I'm

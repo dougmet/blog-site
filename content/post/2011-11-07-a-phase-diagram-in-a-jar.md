@@ -4,7 +4,6 @@ slug = "2011-11-07-a-phase-diagram-in-a-jar"
 published = 2011-11-07T14:25:00.001000Z
 author = "Douglas Ashton"
 tags = [ "colloids", "experiments", "stat-mech",]
-aliases = ["/2011/11/phase-diagram-in-jar.html"]
 +++
 One of the things I love about colloids is just how visual they are. Be
 it watching them jiggling around under a [confocal

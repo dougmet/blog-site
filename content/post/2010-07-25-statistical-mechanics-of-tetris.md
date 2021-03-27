@@ -4,7 +4,6 @@ slug = "2010-07-25-statistical-mechanics-of-tetris"
 published = 2010-07-25T01:59:00+01:00
 author = "Douglas Ashton"
 tags = [ "stat-mech",]
-aliases = ["/2010/07/statistical-mechanics-of-tetris.html"]
 +++
 I'm finding that I'm becoming increasingly fascinated by shape. It seems
 such a simple thing yet scratch the surface only a little and the

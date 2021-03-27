@@ -4,7 +4,6 @@ slug = "2011-04-15-lipid-membranes-on-the-arxiv"
 published = 2011-04-15T09:02:00.003000+01:00
 author = "Douglas Ashton"
 tags = [ "biology", "journal-club",]
-aliases = ["/2011/04/lipids-on-arxiv.html"]
 +++
 A while ago I discussed [lipid
 membranes](/2009/08/biological-membranes.html)

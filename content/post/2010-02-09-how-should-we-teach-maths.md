@@ -4,7 +4,6 @@ slug = "2010-02-09-how-should-we-teach-maths"
 published = 2010-02-09T01:01:00.001000Z
 author = "Douglas Ashton"
 tags = [ "communication", "books", "links", "maths",]
-aliases = ["/2010/02/how-should-we-teach-maths.html"]
 +++
 I came across [this new
 feature](http://opinionator.blogs.nytimes.com/2010/01/31/from-fish-to-infinity/)

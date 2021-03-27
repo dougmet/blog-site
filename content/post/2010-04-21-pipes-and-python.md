@@ -4,7 +4,6 @@ slug = "2010-04-21-pipes-and-python"
 published = 2010-04-21T10:31:00.001000+01:00
 author = "Douglas Ashton"
 tags = [ "software",]
-aliases = ["/2010/04/pipes-and-python.html"]
 +++
 I spent ages writing a post about some tricks I use to do quick analysis
 of data but it got incredibly bloated and started waffling about work

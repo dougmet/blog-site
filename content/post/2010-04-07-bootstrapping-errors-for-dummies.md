@@ -4,7 +4,6 @@ slug = "2010-04-07-bootstrapping-errors-for-dummies"
 published = 2010-04-07T14:21:00.004000+01:00
 author = "Douglas Ashton"
 tags = [ "statistics", "probability",]
-aliases = ["/2010/04/bootstrapping-errors-for-dummies.html"]
 +++
 The trouble with science is that you need to do things properly. I'm
 working on a paper at the moment where we measured some phase diagrams.

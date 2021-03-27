@@ -4,7 +4,6 @@ slug = "2008-08-31-mac-vs-pc-vs-linux"
 published = 2008-08-31T13:40:00+01:00
 author = "Douglas Ashton"
 tags = [ "technology", "software",]
-aliases = ["/2008/08/mac-vs-pc-vs-linux.html"]
 +++
 When I started my new job I was given the option of having an iMac
 instead of the standard issue Linux PC. They're really nice looking

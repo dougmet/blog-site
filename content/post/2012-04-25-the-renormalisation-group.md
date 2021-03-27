@@ -4,7 +4,6 @@ slug = "2012-04-25-the-renormalisation-group"
 published = 2012-04-25T09:50:00.003000+01:00
 author = "Douglas Ashton"
 tags = [ "ising model", "stat-mech", "video",]
-aliases = ["/2012/04/renormalisation-group.html"]
 math = true
 +++
 A new video which more or less completes the critical phenomena

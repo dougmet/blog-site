@@ -4,7 +4,6 @@ slug = "2009-08-01-biological-membranes"
 published = 2009-08-01T21:20:00.016000+01:00
 author = "Douglas Ashton"
 tags = [ "biology", "stat-mech",]
-aliases = ["/2009/08/biological-membranes.html"]
 +++
 It's been ages since my last post. This is because I've been busy doing
 lots of interesting physics, met a bunch of interesting physicists,

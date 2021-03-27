@@ -4,7 +4,6 @@ slug = "2011-03-10-thoughts-of-a-first-time-peer-reviewer"
 published = 2011-03-10T18:08:00Z
 author = "Douglas Ashton"
 tags = [ "communication",]
-aliases = ["/2011/03/thoughts-of-first-time-peer-reviewer.html"]
 +++
 Most of my time is spent tirelessly chipping away at the scientific rock
 face, probably bogged down fixing a bug in my code or staring at some

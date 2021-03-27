@@ -4,9 +4,6 @@ slug = "2012-04-18-the-thermodynamic-limit"
 published = 2012-04-18T16:51:00.001000+01:00
 author = "Douglas Ashton"
 tags = [ "stat-mech",]
-aliases = [
-  "/2012/04/thermodynamic-limit.html"
-]
 math = true
 +++
 This post has been at the back of mind for a while and written in small,

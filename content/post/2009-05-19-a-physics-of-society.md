@@ -4,7 +4,6 @@ slug = "2009-05-19-a-physics-of-society"
 published = 2009-05-19T12:25:00.007000+01:00
 author = "Douglas Ashton"
 tags = [ "society", "complexity",]
-aliases = ["/2009/05/physics-of-society.html"]
 +++
 Is it possible that we're not as in control as we think we are? We spend
 our entire teenage years convincing ourselves that we're individuals,

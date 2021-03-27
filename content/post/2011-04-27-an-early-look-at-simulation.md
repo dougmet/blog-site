@@ -4,7 +4,6 @@ slug = "2011-04-27-an-early-look-at-simulation"
 published = 2011-04-27T17:43:00.001000+01:00
 author = "Douglas Ashton"
 tags = [ "computation",]
-aliases = ["/2011/04/early-look-at-simulation.html"]
 +++
 While I was putting together the [post on 2D
 disks](/2011/04/paper-review-hexatic-phases-in-2d.html)

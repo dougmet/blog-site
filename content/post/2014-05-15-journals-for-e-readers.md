@@ -4,7 +4,6 @@ slug = "2014-05-15-journals-for-e-readers"
 published = 2014-05-15T16:43:00+01:00
 author = "Douglas Ashton"
 tags = [ "journals", "communication",]
-aliases = ["/2014/05/journals-for-e-readers.html"]
 +++
 One thing that makes me cross is that despite the terrifying amount of
 money our library pays to buy back our research in the form of journals,

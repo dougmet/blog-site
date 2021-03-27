@@ -4,7 +4,6 @@ slug = "2012-01-21-just-hurry-up-and-sit-down"
 published = 2012-01-21T11:36:00Z
 author = "Douglas Ashton"
 tags = [ "journal-club", "links",]
-aliases = ["/2012/01/just-hurry-up-and-sit-down.html"]
 +++
 As a semi frequent flyer, and incredibly impatient stand-behinderer I
 couldn't resist linking to this - [Time needed to board an airplane: A

@@ -4,7 +4,6 @@ slug = "2011-11-04-back-from-the-dead"
 published = 2011-11-04T19:04:00.001000Z
 author = "Doug"
 tags = [ "announcements",]
-aliases = ["/2011/11/back-from-dead.html"]
 +++
 Can't remember the number of times I've said I've been away because I've
 been busy, but this time it'll be different. Well it probably won't be

@@ -4,7 +4,6 @@ slug = "2009-11-29-an-unintuitive-probability-problem"
 published = 2009-11-29T12:53:00.027000Z
 author = "Douglas Ashton"
 tags = [ "probability", "stat-mech",]
-aliases = ["/2009/11/unintuitive-probability-problem.html"]
 math = true
 +++
 Probability can do strange things to your mind. This week I had a

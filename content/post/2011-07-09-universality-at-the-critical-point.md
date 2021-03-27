@@ -4,7 +4,6 @@ slug = "2011-07-09-universality-at-the-critical-point"
 published = 2011-07-09T00:26:00+01:00
 author = "Douglas Ashton"
 tags = [ "ising model", "stat-mech", "video",]
-aliases = ["/2011/07/universality-at-critical-point.html"]
 +++
 Time for more critical phenomena.  
 
