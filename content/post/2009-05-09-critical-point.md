@@ -4,9 +4,6 @@ slug = "2009-05-09-critical-point"
 published = 2009-05-09T10:47:00.018000+01:00
 author = "Douglas Ashton"
 tags = [ "ising model", "physics", "stat-mech", "video",]
-aliases = [
-    "/2009/05/critical-point.html"
-]
 +++
 I'm finally getting around to sharing what, for me, is the most
 beautiful piece of physics we have yet stumbled upon. This is the
