@@ -129,3 +129,7 @@ It's not totally clear this has done anything. But if I leave the redirect up lo
 That was quite a lot of steps. The take home message is really "Choose your domain name wisely". But doing this migration was quite fun and helped my understanding of how the bowels of the internet actually function.
 
 I do like my new Hugo/Netlify setup but if, in the future when fashion inevitably moves me to something-new.com, it should be relatively easy to convert the posts, point the DNSes, and flutter away on the fickle wind of change.
+
+[Code for old site](https://github.com/dougmet/kincon)
+
+[Code for new site](https://github.com/dougmet/blog-site)
