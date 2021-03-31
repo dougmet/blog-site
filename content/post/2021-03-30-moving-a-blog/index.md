@@ -7,7 +7,6 @@ categories: []
 tags: ["communication"]
 ---
 
-
 Toward the end of my PhD, in 2008, I started a blog called "Kinetically Constrained" to talk about science and, as I was into it at the time, bad science. The name came from my thesis topic about kinetically constrained models of glass formers. It also played to that bigger feeling that, despite being such complex unique creatures, our choices are relatively constrained sometimes, and as a group we're much more predictable than we might think.
 
 I used a Google service, called [Blogger](https://www.blogger.com), which did everything I needed. Eventually I got a nice domain name and off I went. I stopped blogging in 2014 but recently want somewhere to put longer thoughts. These days I want to use markdown.
@@ -24,7 +23,7 @@ So I've got a few things to do:
 
 None of these were super easy, so here's what I did:
 
-# 1. Migrating from Blogger to Hugo
+## 1. Migrating from Blogger to Hugo
 
 First step is to backup your Blogger posts. I followed [instructions from Google on backing up the blog](https://support.google.com/blogger/answer/41387?hl=en) to get an xml file with all the posts.
 
@@ -43,17 +42,17 @@ So this will be `/2021/03/moving-a-blog`. I chose not to change the default [slu
 
 Finally, after a lot of fiddling and fixing bad links, images etc, I had a working version of the site.
 
-# 2. Publishing in Netlify and setting the DNS there
+## 2. Publishing in Netlify and setting the DNS there
 
 Setting up a site in Netlify is covered widely. Not least in the [Blogdown book itself](https://bookdown.org/yihui/blogdown/netlify.html) so I won't cover that.
 
-## DNS
+### DNS
 
 I decided to let Netlify handle all of the DNS for my old domain (I did something different for the new one). I'm happy with my domain provider so I followed the [instructions to delegate](https://docs.netlify.com/domains-https/netlify-dns/delegate-to-netlify/) from here. That would mean Netlify would point anything `.kineticallyconstrained.com` somewhere but they're not my domain provider.
 
 At this point I've broken my old blog. Instead of going to Blogger it now goes to Netlify. But the URLs are different.
 
-## Redirects
+### Redirects
 
 Initially I tried using [Hugo aliases](https://gohugo.io/content-management/urls/#aliases) to get my old blogger URLs, which were `year/month/slug.html` to `year/month/slug/`. But I found I was getting these weird infinite redirect loops where my browser was bouncing back and forth.
 
@@ -70,7 +69,7 @@ and one line per redirect. I'll be honest I did it manually, you'll maybe make a
 
 So now we have a working port of the site, at the same domain, but now built in Hugo and hosted by Netlify. This might be the end of the guide if you're keeping the same domain name. I wanted to also change the address.
 
-# 3. Clone the site and point the new domain there
+## 3. Clone the site and point the new domain there
 
 Before worrying about redirects I wanted to get a copy of the site (without the redirects) working on the new domain, [blog.dougashton.net](https://blog.dougashton.net). Note that this is a subdomain of `dougashton.net` and this time I didn't want to give Netlify full control of the DNS.
 
@@ -82,7 +81,7 @@ From here when I went back to Netlify it was happy and went off and did the Lets
 
 At this point we have identical sites at kineticallyconstrained.com and [blog.dougashton.net](https://blog.dougashton.net). I just want to redirect the old one to the new one.
 
-# Redirect old domain to new domain
+## 4. Redirect old domain to new domain
 
 Again, you only need to do this if you're changing domain name.
 
@@ -116,7 +115,7 @@ new site: Has no idea old site exists.
 
 I not long ago renewed the old domain name so I'll just keep the redirect going for the rest of the year and try to remember to update links where I have them still.
 
-# 4. Tell Google Search about the Change of Address
+## 5. Tell Google Search about the Change of Address
 
 This last bit is kind of optional. But if your posts appear in Google searches you may wish to try to retain that traffic, or at least guide people away from the old domain that you'll cut loose.
 
@@ -124,7 +123,7 @@ I used the [Google Change of Address Tool](https://support.google.com/webmasters
 
 It's not totally clear this has done anything. But if I leave the redirect up long enough Google says that within 6 months the search results will update.
 
-# Summary
+## Summary
 
 That was quite a lot of steps. The take home message is really "Choose your domain name wisely". But doing this migration was quite fun and helped my understanding of how the bowels of the internet actually function.
 
