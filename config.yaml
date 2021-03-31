@@ -33,7 +33,7 @@ params:
   license: CC BY-SA 4.0
   licenseLink: http://creativecommons.org/licenses/by-sa/4.0/
   mainSections: post
-  og: /img/og.png
+  og: /images/head_small.png
   showLicense: yes
   showLicenseInFooter: no
   showReadTime: yes
