@@ -7,7 +7,7 @@ categories: []
 tags: ["communication"]
 ---
 
-Toward the end of my PhD, in 2008, I started a blog called "Kinetically Constrained" to talk about science and, as I was into it at the time, bad science. The name came from my thesis topic about kinetically constrained models of glass formers. It also played to that bigger feeling that, despite being such complex unique creatures, our choices are relatively constrained sometimes, and as a group we're much more predictable than we might think.
+Toward the end of my PhD, in 2008, I started a blog called Kinetically Constrained to talk about science and, as I was into it at the time, bad science. The name came from my thesis topic about kinetically constrained models of glass formers. It also played to that bigger feeling that, despite being such complex unique creatures, our choices are relatively constrained sometimes, and as a group we're much more predictable than we might think.
 
 I used a Google service, called [Blogger](https://www.blogger.com), which did everything I needed. Eventually I got a nice domain name and off I went. I stopped blogging in 2014 but recently want somewhere to put longer thoughts. These days I want to use markdown.
 
