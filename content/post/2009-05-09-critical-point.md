@@ -132,4 +132,4 @@ people think it's useful for teaching. For now you'd have to leave a
 comment as I haven't sorted out a spam-free email address.  
   
 UPDATE: Forward link to a [post on
-universality](/2011/07/universality-at-critical-point.html).
+universality](https://blog.dougashton.net/2011/07/universality-at-the-critical-point/).
