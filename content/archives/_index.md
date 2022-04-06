@@ -1,8 +1,6 @@
 ---
-description: ""
-title: Archives
+title: "Archive"
+layout: "archives"
+# url: "/archives"
+summary: "archives"
 ---
-
-You can change archives page details above.
-
-Keep this file saft to ensure Hugo generate the archives page.

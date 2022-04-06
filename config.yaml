@@ -1,78 +1,169 @@
-baseURL: https://blog.dougashton.net
+baseURL: "https://blog.dougmet.net/"
 title: Kinetically Constrained
-theme: hugo-theme-fuji
-hasCJKLanguage: yes
-enableEmoji: yes
-enableRobotsTXT: yes
-disableKinds: taxonomy
-ignoreErrors: error-disable-taxonomy
-languageCode: en
-defaultContentLanguage: en
-summaryLength: 100
-paginate: 10
-outputFormats:
-  SearchIndex:
-    isPlainText: yes
-    mediaType: application/json
-    notAlternative: yes
-    path: /search/
-outputs:
-  home:
-    - HTML
-    - RSS
-    - SearchIndex
+paginate: 5
+theme: PaperMod
+
 permalinks:
   post: /:year/:month/:title/
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+# googleAnalytics: UA-123-45
+
+minify:
+    disableXML: true
+    # minifyOutput: true
+
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+        menu:
+            main:
+                - name: Archive
+                  url: archives
+                  weight: 5
+                - name: Search
+                  url: search/
+                  weight: 10
+                - name: Tags
+                  url: tags/
+                  weight: 10
+                - name: Categories
+                  url: categories/
+                  weight: 10
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
 params:
-  author: Doug Ashton
-  copyrightStartYear: '2008'
-  description: A mix of blog posts from Doug Ashton from statistical physics to data science.
-  lazyPlaceholder: /assets/lazyload/dsrca_loading_480x270.svg
-  lazyPlaceholderCol: /assets/lazyload/dsrca_loading_480x540.svg
-  lazyPlaceholderRow: /assets/lazyload/dsrca_loading_960x270.svg
-  license: CC BY-SA 4.0
-  licenseLink: http://creativecommons.org/licenses/by-sa/4.0/
-  mainSections: post
-  og: /images/head_small.png
-  showLicense: yes
-  showLicenseInFooter: no
-  showReadTime: yes
-  showToc: yes
-  showWordCounter: yes
-  sourceURL: https://github.com/dougmet/blog-site
-  subTitle: A place to keep the longer thoughts of Doug Ashton.
-markup:
-  goldmark:
-    renderer:
-      unsafe: yes
-  highlight:
-    codeFences: no
-  tableOfContents:
-    endLevel: 3
-    startLevel: 2
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    description: "A mix of blog posts from Doug Ashton from statistical physics to data science."
+    author: Doug Ashton
+    # author: ["Me", "You"] # multiple authors
+
+    defaultTheme: auto
+    # disableThemeToggle: true
+    ShowShareButtons: true
+    ShowReadingTime: true
+    # disableSpecial1stPost: true
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowToc: true
+    TocOpen: false
+    # comments: false
+    images: ["papermod-cover.png"]
+
+    profileMode:
+        enabled: false
+        title: PaperMod
+        imageUrl: "#"
+        imageTitle: my image
+        # imageWidth: 120
+        # imageHeight: 120
+        buttons:
+            - name: Archives
+              url: archives
+            - name: Tags
+              url: tags
+
+    homeInfoParams:
+        Title: "Kinetically Constrained"
+        Content: >
+            A place to keep the longer thoughts of Doug Ashton.
+
+            
+
+    socialIcons:
+        - name: github
+          url: "https://github.com/dougmet"
+        - name: twitter
+          url: "https://twitter.com/dougashton"
+        - name: RsS
+          url: "index.xml"
+
+    # editPost:
+    #     URL: "https://github.com/dougmet/blog-site/"
+    #     Text: "Suggest Changes" # edit text
+    #     appendFilePath: true # to append file path to Edit link
+
+    # label:
+    #     text: "Home"
+    #     icon: icon.png
+    #     iconHeight: 35
+
+    # analytics:
+    #     google:
+    #         SiteVerificationTag: "XYZabc"
+
+    # assets:
+    #     favicon: "<link / abs url>"
+    #     favicon16x16: "<link / abs url>"
+    #     favicon32x32: "<link / abs url>"
+    #     apple_touch_icon: "<link / abs url>"
+    #     safari_pinned_tab: "<link / abs url>"
+
+    # cover:
+    #     hidden: true # hide everywhere but not in structured data
+    #     hiddenInList: true # hide on list pages and home
+    #     hiddenInSingle: true # hide on single page
+
+    # fuseOpts:
+    #     isCaseSensitive: false
+    #     shouldSort: true
+    #     location: 0
+    #     distance: 1000
+    #     threshold: 0.4
+    #     minMatchCharLength: 0
+    #     keys: ["title", "permalink", "summary", "content"]
+
 taxonomies:
-  tag: tags
-menu:
-  link:
-    - name: GitHub
-      url: https://github.com/dougmet
-      weight: 1
-    - name: Twitter
-      url: https://twitter.com/dougashton
-      weight: 2
-  nav:
-    - name: Home
-      url: /
-      weight: 1
-    - name: Archives
-      url: /archives/
-      weight: 2
-    - name: About
-      url: /about/
-      weight: 3
-    - name: Search
-      url: /search/
-      weight: 4
-    - name: RSS
-      url: /index.xml
-      weight: 5
+    category: categories
+    tag: tags
+    series: series
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         # noClasses: false
+#         style: monokai
+
+privacy:
+    vimeo:
+        disabled: false
+        simple: true
+
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true
