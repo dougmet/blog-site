@@ -1,5 +1,5 @@
 baseURL: "https://blog.dougmet.net/"
-title: Kinetically Constrained
+title: dougmet-dot-net
 paginate: 5
 theme: PaperMod
 
@@ -78,7 +78,7 @@ params:
               url: tags
 
     homeInfoParams:
-        Title: "Kinetically Constrained"
+        Title: "Dougmet Blog"
         Content: >
             A place to keep the longer thoughts of Doug Ashton.
 
