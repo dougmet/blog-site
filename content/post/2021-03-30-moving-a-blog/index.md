@@ -11,14 +11,14 @@ Toward the end of my PhD, in 2008, I started a blog called Kinetically Constrain
 
 I used a Google service, called [Blogger](https://www.blogger.com), which did everything I needed. Eventually I got a nice domain name and off I went. I stopped blogging in 2014 but recently want somewhere to put longer thoughts. These days I want to use markdown.
 
-I'm quite proud of some of the posts that were in that blog. Less others. I wanted to keep hold of them, but give up the domain name. When you start to collect a few the renewal cost just doesn't feel worth it anymore. So I wanted to consolidate the domain into dougashton.net and keep a selection of posts.
+I'm quite proud of some of the posts that were in that blog. Less others. I wanted to keep hold of them, but give up the domain name. When you start to collect a few the renewal cost just doesn't feel worth it anymore. So I wanted to consolidate the domain into dougmet.net and keep a selection of posts.
 
 So I've got a few things to do:
 
 1. Migrate from blogger to a static site generator (I've gone [Hugo](https://gohugo.io) and [Blogdown](https://bookdown.org/yihui/blogdown/)).
 2. Publish the new site in [Netlify](https://www.netlify.com/) and point the DNS there.
-3. Make a clone of the site in Netlify and point  [blog.dougashton.net](blog.dougashton.net) there.
-3. Redirect from the old kineticallyconstrained site to [blog.dougashton.net](https://blog.dougashton.net).
+3. Make a clone of the site in Netlify and point  [blog.dougmet.net](blog.dougmet.net) there.
+3. Redirect from the old kineticallyconstrained site to [blog.dougmet.net](https://blog.dougmet.net).
 4. Tell Google about the change of address.
 
 None of these were super easy, so here's what I did:
@@ -71,7 +71,7 @@ So now we have a working port of the site, at the same domain, but now built in 
 
 ## 3. Clone the site and point the new domain there
 
-Before worrying about redirects I wanted to get a copy of the site (without the redirects) working on the new domain, [blog.dougashton.net](https://blog.dougashton.net). Note that this is a subdomain of `dougashton.net` and this time I didn't want to give Netlify full control of the DNS.
+Before worrying about redirects I wanted to get a copy of the site (without the redirects) working on the new domain, [blog.dougmet.net](https://blog.dougmet.net). Note that this is a subdomain of `dougmet.net` and this time I didn't want to give Netlify full control of the DNS.
 
 Instead I made the site on Netlify without a domain. You get a weird looking address like `donkey-vegetable-iahaj` (you can get a prettier one if you want, but we don't). Then I went back to my domain name provider and setup an NS record:
 
@@ -79,7 +79,7 @@ Instead I made the site on Netlify without a domain. You get a weird looking add
 
 From here when I went back to Netlify it was happy and went off and did the LetsEncrypt certificates (to allow https) and all sorts of other things it does automatically for you.
 
-At this point we have identical sites at kineticallyconstrained.com and [blog.dougashton.net](https://blog.dougashton.net). I just want to redirect the old one to the new one.
+At this point we have identical sites at kineticallyconstrained.com and [blog.dougmet.net](https://blog.dougmet.net). I just want to redirect the old one to the new one.
 
 ## 4. Redirect old domain to new domain
 
@@ -89,7 +89,7 @@ Back over at the old site. The first one we made. The `_redirects` file we used 
 
 
 ```
-/2008/07/glass-in-new-york-times.html https://blog.dougashton.net/2008/07/glass-in-the-new-york-times/
+/2008/07/glass-in-new-york-times.html https://blog.dougmet.net/2008/07/glass-in-the-new-york-times/
 ...
 ```
 
@@ -98,14 +98,14 @@ I also want everything else to redirect too. For this I added the following to t
 ```toml
 [[redirects]]
   from = "/*"
-  to = "https://blog.dougashton.net/:splat"
+  to = "https://blog.dougmet.net/:splat"
   status = 301
   force = true
 ```
 
-The splat thing just says, whatever URL you put in after the root part, put that after `blog.dougashton.net`. So `kineticallyconstrainedcom/hello-world.txt` would go to `blog.dougashton.net/hello-world.txt`. The 301 tells the browser, and search engines, that this is a permanent redirect.
+The splat thing just says, whatever URL you put in after the root part, put that after `blog.dougmet.net`. So `kineticallyconstrainedcom/hello-world.txt` would go to `blog.dougmet.net/hello-world.txt`. The 301 tells the browser, and search engines, that this is a permanent redirect.
 
-Once deployed to the old site this sends all its traffic over to [blog.dougashton.net](https://blog.dougashton.net) as desired.
+Once deployed to the old site this sends all its traffic over to [blog.dougmet.net](https://blog.dougmet.net) as desired.
 
 So in summary: we have two sites at this point. Both hosted by Netlify.
 
@@ -132,3 +132,8 @@ I do like my new Hugo/Netlify setup but if, in the future when fashion inevitabl
 [Code for old site](https://github.com/dougmet/kincon)
 
 [Code for new site](https://github.com/dougmet/blog-site)
+
+
+\[Update\]
+
+Unbelievably I've changed domain again to dougmet.net to match my GitHub username and I like the rhyme. I've changed the links here so that there aren't old URLs hanging around.
