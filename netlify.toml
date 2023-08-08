@@ -12,3 +12,9 @@ command = "hugo -F -b $DEPLOY_PRIME_URL"
 [context.production]
 [context.production.environment]
 HUGO_ENV = "production"
+
+[[redirects]]
+  from = "/*"
+  to = "https://blog.dougmet.net/:splat"
+  status = 301
+  force = true
